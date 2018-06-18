@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -11,7 +10,6 @@
 
 	<style>
 		section{ width: 1400px; background: black; margin: auto;  margin-bottom: 120px;}
-		nav  {font-family: "bebas-neue-by-fontfabric" sans-serif;}
 
 		a:link, a:active, a:visited, a:hover {text-decoration: none;} 
 		a:link, a:active, a:visited, a:hover {color: white;}
@@ -20,26 +18,30 @@
 		nav{width: 1400px; height: 60px; background: black; margin: auto; z-index: 9999}
 		nav #logo{width: 250px; height: 60px; float: left; }
 		nav #logo a{display: block; text-align: center; line-height: 60px;}
-		nav #logo a:hover {color: white; }
+		nav #logo a:hover {color: white;}
 		nav #menuList{ float: right; margin: 0; padding: 0; }
 		nav #menuList .main-menu-item{color: white; list-style: none; float: left; width: 260px; height: 60px;}
-		nav #menuList a{display: block; height: 80px; text-align: center; line-height: 60px;}
+		nav #menuList {display: block; height: 60px; text-align: center; line-height: 60px;}
 		nav #menuList a:hover {color: white;}
 
 		* {box-sizing: border-box;}
 		body {background: black; width: 1400px; margin: auto;}
 		.mySlides {display: none;}
 		img {vertical-align: middle;}
-		h1{color: white; font-size: 40px; text-align: center; font-family: "Arial Black", Gadget, sans-serif;}
-		h2{color: white; font-size: 23px; line-height: 1px; position: absolute; top: 1330px; right: 380px;}
-		h3{color: red; font-size: 14px; position: absolute; top: 1356px; right: 439px;}
-		h5{color: white; font-size: 23px; line-height: 1px; position: absolute; top: 4405px; right: 430px;}
-		h6{color: red; font-size: 14px; position: absolute; top: 4431px; right: 415px;}
-		h4{color: white; font-size: 35px; text-align: left;}
+		h1{color: white; text-align: center; font-family: "Arial Black", "Gadget", "sans-serif"; }
+		h2{color: white; font-size: 23px; line-height: 1px; position: absolute; top: 1360px; right: 380px;}
+		h3{color: red; font-size: 14px; position: absolute; top: 1386px; right: 439px;}
+		h5{color: white; font-size: 23px; line-height: 1px; position: absolute; top: 5055px; right: 430px;}
+		h6{color: red; font-size: 14px; position: absolute; top: 5081px; right: 415px;}
+		h4{color: white; font-size: 33px; text-align: left; font-family: "Arial Black", "Gadget", "sans-serif";}
 
-		.p01{color: white; font-size: 18px; line-height: 35px; position: absolute; top: 1398px; right: 250px; }
-		.p03{color: white; font-size: 18px; line-height: 35px; position: absolute; top: 4493px; right: 260px; }
-		.p02{color: red; font-size: 20px; text-align: right; font-weight: bold;}
+		.p01{color: white; font-size: 18px; line-height: 35px; position: absolute; top: 1428px; right: 250px; }
+		.p02{color: white; font-size: 17px; font-weight: ; position: absolute; top: 1825px; right: 257px;}
+		.p03{color: white; font-size: 18px; line-height: 35px; position: absolute; top: 5123px; right: 260px;}
+		.p04{color: red; font-size: 17px; font-weight: ; position: absolute; top: 1825px; right: 232px;}
+		.p05{color: white; font-size: 18px; line-height: 35px; position: absolute; top: 5143px; right: 260px;}
+		.p06{color: red; font-size: 17px; font-weight: ; position: absolute; top: 1825px; right: 232px;}
+
 
 
 		.clear{clear: both;}	
@@ -50,9 +52,6 @@
 
 		/* Slideshow container */
 		.slideshow-container {max-width: 1400px; height: 800px; position: relative;  overflow: hidden;}
-
-		/* Next & previous buttons */
-		.prev, .next {cursor: pointer; position: absolute; top: 50%; width: auto; padding: 16px; margin-top: -22px;  color: white; font-weight: bold; font-size: 18px; transition: 0.6s ease; border-radius: 0 3px 3px 0;}
 
 		/* Position the "next button" to the right */
 		.next {right: 0; border-radius: 3px 0 0 3px;}
@@ -80,7 +79,6 @@
 		@media only screen and (max-width: 300px) {.prev, .next,.text {font-size: 11px}}
 
 
-
 	</style>
 </head>
 <body>
@@ -88,7 +86,7 @@
 	<div class="slideshow-container">
 	<nav>
 		<div id="logo">
-			<a href="index.html">
+			<a href="index.html/">
 				<img src="marvel_home.png" style="width:100px;" align="middle"></a>
 		</div>
 		<ul id="menuList">
@@ -96,7 +94,7 @@
 				<a href="https://kim50.github.io/about_marvel/" target="_blank">ABOUT</a>
 			</li>
 			<li class="main-menu-item">
-				<a href="https://kim50.github.io/movie/" target="_blank">MOVIE</a>
+				<a href="https://kim50.github.io/movie_marvel/" target="_blank">MOVIE</a>
 			</li>
 			<li class="main-menu-item">
 				<a href="" target="_blank">NEWS</a>
@@ -107,19 +105,16 @@
 		</ul>
 	</nav>
 		<div class="mySlides fade">
-		  <img src="main1.jpg" style="width:100%">
+		  <img src="main1.png" style="width:100%">
 		</div>
 
 		<div class="mySlides fade">
-		  <img src="main2.jpg" style="width:100%">
+		  <img src="main2.png" style="width:100%">
 		</div>
 
 		<div class="mySlides fade">
-		  <img src="main3.jpg" style="width:100%">
+		  <img src="main3.png" style="width:100%">
 		</div>
-
-		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-		<a class="next" onclick="plusSlides(1)">&#10095;</a>
 
 	</div>
 		<div style="text-align:center;">
@@ -150,10 +145,10 @@
 		<h1>AVENGERS: INFINITY WAR</h1>
 	</div>
 	
-	<br><br><br><br>
+	<br><br><br><br><br><br><br>
 
-	<center><img src="movie1.png" width="1050"></center>
-	<img src="avengers_logo.png" width="400" style="position: absolute; top: 1190px; right: 233px;">
+	<center><img src="movie1.png" width="1010"></center>
+	<img src="avengers_logo.png" width="380" style="position: absolute; top: 1210px; right: 250px;">
 	<h2><어벤져스: 인피니티 워></h2>
 	<h3>끝나지 않는 전쟁이 시작된다!</h3>
 	<p class="p01">새로운 조합을 이룬 어벤져스,
@@ -161,27 +156,81 @@
 		<br>인피니티 스톤을 향한 무한 대결이 펼쳐진다!</p>
 	<style>
 	.section-bar01{ width:1400px; height:28px; background: url('titlebar.png');}
-	.section-bar01 h1{font-size: 45px; text-align: center; line-height: 37px; }
+	.section-bar01 h1{ text-align: center; line-height: 30px; font-size: 40px;}
 </style>
 </section>
 <section>
-	<div class="section-bar02">
-		<h4>Trailer</h4><p class="p02">더보기>></p>
-
-	<style>
-		.section-bar02 h4, p{ margin:0; padding:0; margin-top: ;}
-	</style>
-
+	<div class="bb12">
+		<h4>Trailer</h4> <p class="p02">더보기</p> <p class="p04">>></p>
 	</div>
+	<div class="bb1">
+		<div class="bb2 left">
+			<div class="bimg left"> <iframe width="560" height="315" src="https://www.youtube.com/embed/-zabRKMQ88c?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> </div>
+			<div class="btext left">
+				<p>marvel studio offical trailer</p>
+				<h7>NOV 19, 2017</h7><br>
+				<h8>어벤져스</h8><br>
+				<h8>:인피니티 워</h8><br>
+				<h8>공식 예고편 #1</h8><br>
+				<h7>2:24 trailer</h7>
+			</div>
+		</div>
+	<div class="bb3 left">
+		<div class="bb4 left">
+			<div class="b2img left"><iframe width="100%" src="https://www.youtube.com/embed/xUDhdCsLkjU?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+			<div class="b2text left">
+				<h7>MAR 16, 2018</h7><br>
+				<h8>어벤져스</h8><br>
+				<h8>:인피니티 워</h8><br>
+				<h8>공식 예고편 #2</h8><br>
+				<h7>2:18 trailer</h7>
+			</div>
+			<div class="clear"></div>
+		</div>
+		<div class="bb5 left">
+			<div class="b2img left"><iframe width="100%" src="https://www.youtube.com/embed/e6sp2HYbIBw?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+			<div class="b2text left">
+				<h7>FEB 04, 2018</h7><br>
+				<h8>어벤져스</h8><br>
+				<h8>:인피니티 워</h8><br>
+				<h8>공식 예고편 스팟</h8><br>
+				<h7>0:31 trailer</h7>
+		</div></div>
+			<div class="clear"></div>
+	</div>
+	
 </section>
 <section>
-	<div class="section-bar02">
-		<h4>News Clip</h4><p class="p02">더보기>></p>
+	<div class="aa12">
+		<h4>News Clip</h4> <p class="p05">더보기</p> <p class="p06">>></p>
 	</div>
-	<style>
-		.section-bar02 h4, p{ margin:0; padding:0; margin-top: ;}
-	</style>
+	<div class="aa1">
+		<div class="aa2 left">
+			<div class="aimg"><a href="https://m.post.naver.com/viewer/postView.nhn?volumeNo=14897557&memberNo=31724756&vType=VERTICAL" target="_blank"><img src="avengers_clip1.jpg" width="240"></div></a>
+		<div class="aa3 left"> <div class="a3text">‘어벤져스: 인피니티 워’ 역대 최강<br>내한! 영웅 4인방의 레드카펫 현장	
+			</div></div>
+		</div>
+
+		<div class="aa2 left">
+			<div class="aimg"><a href="https://www.youtube.com/watch?v=S9Qa5cN-R2s" target="_blank"><img src="avengers_clip2.png" width="230"></div></a>
+				<div class="aa3 left"> <div class="a3text">어벤져스 영웅들의 스포금지 캠페인<br>닥터 스트레인지의 당부 “제가 매번 <br>시간을 되돌릴 수는 없거든요!”
+			</div></div>
+		</div>
+
+		<div class="aa2 left">
+			<div class="aimg"><a href="https://www.youtube.com/watch?v=tgManNfbva0" target="_blank"><img src="avengers_clip3.png" width="240"></div></a>
+				<div class="aa3 left"> <div class="a3text">마블 코리아 ‘어벤져스: 인피니티 워’<br>1000만 관객 돌파 축하영상
+			</div></div>
+		</div>
+
+		<div class="aa2 left">
+			<div class="aimg"><a href="https://www.youtube.com/watch?v=OzRsRUHw32M&t=2s" target="_blank"><img src="avengers_clip4.jpg" width="240"></div></a>
+				<div class="aa3 left"> <div class="a3text">마블 코리아 10주년 기념 촬영장 <br>인터뷰 ‘세기의 영웅들이 한자리에<br>모이다’
+			</div></div>
+	</div>
+
 </section>
+	<br><br><br><br><br><br><br>
 <img src="antman_poster2.jpg" width="1400" style="margin-bottom: 120px;">
 <section>
 	<div class="section-bar01">
@@ -191,7 +240,7 @@
 	<br><br><br><br>
 
 	<center><img src="movie2.png" width="1050"></center>
-	<img src="antman_logo.png" width="370" style="position: absolute; top: 4290px; right: 233px;">
+	<img src="antman_logo.png" width="370" style="position: absolute; top: 4940px; right: 233px;">
 	<h5><앤트맨과 와스프></h5>
 	<h6>진정한 영웅은 사이즈부터 다르다!</h6>
 	<p class="p03">‘시빌 워’ 사건 이후 히어로와 가장의 역할 사이를
@@ -199,24 +248,139 @@
 		<br>예측불허 미션과 활약을 담은 액션 블록버스터</p>
 	<style>
 	.section-bar01{ width:1400px; height:28px; background: url('titlebar.png');}
-	.section-bar01 h1{font-size: 45px; text-align: center; line-height: 37px;}
+	.section-bar01 h1{font-size: 40px; text-align: center; line-height: 30px;}
 </style>
 </section>
 <section>
-	<div class="section-bar02">
-		<h4>Trailer</h4><p class="p02">더보기>></p>
+	<div class="bb12">
+		<h4>Trailer</h4> <p class="p02">더보기</p> <p class="p04">>></p>
 	</div>
-	<style>
-		.section-bar02 h4, p{ margin:0; padding:0; margin-top: 0;}
-	</style>
+	<div class="bb1">
+		<div class="bb2 left">
+			<div class="bimg left"> <iframe width="560" height="315" src="https://www.youtube.com/embed/BubTvW_T2YM?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+			<div class="btext left">
+				<p>marvel studio offical trailer</p>
+				<h7>MAY 1, 2018</h7><br>
+				<h8>앤트맨과 와스프</h8><br>
+				<h8>메인 예고편</h8><br>
+				<h7>2:24 trailer</h7>
+			</div>
+		</div>
+	<div class="bb3 left">
+		<div class="bb4 left">
+			<div class="b2img left"><iframe width="100%" src="https://www.youtube.com/embed/itYflXUb_nk?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+			<div class="b2text left">
+				<h7>JUN 5, 2018</h7><br>
+				<h8>"앤트맨과 와스프는</h8><br>
+				<h8>어디에?"</h8><br>
+				<h8>특별 영상</h8><br>
+				<h7>1:06 trailer</h7>
+			</div>
+			<div class="clear"></div>
+		</div>
+		<div class="bb5 left">
+			<div class="b2img left"><iframe width="100%" src="https://www.youtube.com/embed/gViv0OSBNpo?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+			<div class="b2text left">
+				<h7>JUN 11, 2018</h7><br>
+				<h8>앤트맨과 와스프</h8><br>
+				<h8>초차원 액션영상</h8><br>
+				<h7>0:55 trailer</h7>
+		</div></div>
+			<div class="clear"></div>
+	</div>
 </section>
 <section>
-	<div class="section-bar02">
-		<h4>News Clip</h4><p class="p02">더보기>></p>
+	<div class="aa12">
+		<h4>News Clip</h4> <p class="p05">더보기</p> <p class="p06">>></p>
 	</div>
-	<style>
-		.section-bar02 h4, p{ margin:0; padding:0; margin-top: ;}
-	</style>
+	<div class="aa1">
+		<div class="aa2 left">
+			<div class="aimg"><a href="https://www.youtube.com/watch?v=CkZvcKNt8Mk&t=6s" target="_blank"><img src="antman_clip1.jpg" width="240"> </div></a>
+		<div class="aa3 left"> <div class="a3text">‘앤트맨과 와스프’ 새로운 트레일러<br>공개! 7월 6일 대개봉!
+			</div></div>
+		</div>
+
+		<div class="aa2 left">
+			<div class="aimg"><a href="https://www.youtube.com/watch?v=itYflXUb_nk" target="_blank"><img src="antman_clip2.png" width="230"></div></a>
+				<div class="aa3 left"> <div class="a3text">마블 스튜디오 “어벤져스 인피니티<br>전쟁중 앤트맨과 와스프는 어디에<br>있었습니까?”
+			</div></div>
+		</div>
+
+		<div class="aa2 left">
+			<div class="aimg"><a href="https://docs.google.com/forms/d/13wvjEvk7qVD86SS_uPNacNzh4WHRfN_MlfLwmh4rImM/viewform?edit_requested=true" target="_blank"> <img src="antman_clip3.jpg" width="240"></div></a>
+				<div class="aa3 left"> <div class="a3text">숨은 그림 찾기 이벤트! 포스터 곳곳에<br>숨어있는 앤트맨과 와스프를 찾아보세요!
+			</div></div>
+		</div>
+
+		<div class="aa2 left">
+			<div class="aimg"><a href="https://www.facebook.com/marvel.kr/photos/pcb.1949613931717616/1949613705050972/?type=3&theater" target="_blank"><img src="antman_clip4.jpg" width="240"></div></a>
+				<div class="aa3 left"> <div class="a3text">역대급 흥케미 앤트맨 ❤️ 와스프<br>놓칠 수 없는 라이브 현장 토크!
+			</div></div>
+	</div>
 </section>
+	<style>
+		
+		.bb1{width:1000px;height:300px; background: black;  position:relative; left:calc(50% - 500px);}
+		.bb12{width:1015px;height:70px; background: black;  position:relative; left:calc(50% - 500px); }
+		.bb12 h4{position: relative; left:0px;}
+		.bb12 p{position: relative; right:0px; top: 0px;}
+		.left{float: left}
+		.bb2{width:65%;height:325px; background: black; box-shadow: 7px 7px #464646; margin-right: 17px;}
+		.bimg{width:70%; height:325px; background: black; overflow: hidden;}
+		.btext{width:30%; height:325px; background: black;}
+		.btext p{ margin-top: 95px; margin-left: 15px; color: red; font-size: 9px;}
+		.btext h7{ margin-top: 95px; margin-left: 15px; color: #575757; font-size: 9px;}
+		.btext h8{ margin-top: 95px; margin-left: 15px; color: white; font-size: 20px; font-weight: bold; line-height: 24px;}
+		.b2img{width:50%; height:150px; background: black; overflow: hidden;}
+		.b2text{width:50%; height:150px; background: black;}
+		.b2text h7 {margin-top: 30px; margin-left: 15px; color: #575757; font-size: 9px;}
+		.b2text h8 {margin-top: 30px; margin-left: 15px; color: white; font-size: 17px; font-weight: bold; line-height: 20px;}
+		.bb3{width:30%;height:315px; background: black;}
+		.bb4{width:100%;height:150px; background: black; margin-left: 15px; margin-bottom:25px; box-shadow: 6px 6px #464646; }
+		.bb5{width:100%;height:150px; background: black; margin-left: 15px; box-shadow: 6px 6px #464646;}
+
+		
+		#shadow {padding: 10px; box-shadow: 5px 10px #464646;}
+
+		.aa1{width:1000px;height:200px; background: black;  position:relative; left:calc(50% - 500px);}
+		.aa12{width:1000px;height:70px; background: black;  position:relative; left:calc(50% - 500px); }
+		.aa12 h4{position: relative; left:0px;}
+		.aa12 p{position: relative; right:0px; top: 0px;}
+		.left{float: left}
+		.aa2{width:23%;height:200px; background: black; margin-right: 20px; box-shadow: 5px 5px #464646;}
+		.aimg{width:100%; height:200px; background: black; overflow: hidden;}
+		.aimg img:hover{transform:scale(1.1); margin:auto; border: 2px solid: white;}
+		.aa3{width: 235px; height: 80px; background: black; margin-top: 20px; margin-bottom: 140px;}
+		.a3text{margin-left: 13px; color: white; font-size: 15px;  line-height: 21px; }
+
+		.f{background: black; height: 200px; margin: 50px; padding-top: 30px; }
+		.line{border-left: 1300px solid #3F3F3F; height: 1.5px; margin-top: 60px;}
+
+		.p07{color: #3F3F3F; font-size: 18px; float: left; margin-right: 35px; margin-left: 35px;}
+
+
+	</style>
+
+<footer>
+	<div class="f"><img src="marvel_end.png" width="170px;">
+		<a href="https://www.facebook.com/marvel.kr/" target="_blank">
+			<img src="facebook.png" width="40" style="position: absolute; top: 6475px; right: 165px;"></a>
+
+		<a href="https://twitter.com/marvel" target="_blank">
+			<img src="twitter.png" width="40" style="position: absolute; top: 6475px; right: 115px;"></a>
+
+		<a href="https://www.youtube.com/user/MarvelKorea" target="_blank">
+			<img src="youtube.png" width="40" style="position: absolute; top: 6475px; right: 65px;"></a>
+
+	<div class="line"></div>
+		<p class="p07">Terms of Use</p>
+		<p class="p07">Privacy Policy</p>
+		<p class="p07">Children’s Online Privacy Policy</p>
+		<p class="p07">License Agreement.</p>
+		<p class="p07">Interest-Based Ads</p>
+		<p class="p07">Ⓒ2018 MARVEL</p></a>
+	</div>
+	</footer>
+
 </body>
 </html>
